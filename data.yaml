@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fire', 'smoke']
+
+roboflow:
+  workspace: middle-east-tech-university
+  project: fire-and-smoke-detection-hiwia
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/middle-east-tech-university/fire-and-smoke-detection-hiwia/dataset/2
